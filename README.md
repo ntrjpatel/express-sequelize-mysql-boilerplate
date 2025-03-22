@@ -1,14 +1,14 @@
 # express-sequelize-mysql-boilerplate
-This is a ready to start NodeJS based ExpressJS, Sequelize, MySQL boilerplate application
+This is a ready-to-start NodeJS-based ExpressJS, Sequelize, MySQL boilerplate application
 
-1. To install application, open the terminal and go into the given code's root directory and execute below command
+1. To install the application, open the terminal go into the given code's root directory, and execute the below command
 ```
 npm install
 ```
 
-2. Create a database with name ***`express-sequalize-mysql-boilerplate`*** in MySQL
+2. Create a database with the name ***`express-sequalize-mysql-boilerplate`*** in MySQL
 
-3. Run DB-Migrate command to create tables
+3. Run the DB-Migrate command to create tables
 ```
 npm run db-migrate
 ```
@@ -18,12 +18,12 @@ npm run db-migrate
 npm start
 ```
 
-5. This will start the API server on port defined in ***`/config/index.js`*** file (Default: ***3000***). Once the API server is started you will get the below message in your terminal console, this means your API server is started successfully.
+5. This will start the API server on the port defined in ***`/config/index.js`*** file (Default: ***3000***). Once the API server is started you will get the below message in your terminal console, this means your API server is started successfully.
 ```
 Listening at "http://localhost:3000"
 ```
 
-6. Now access below URL from your browser to test if your API is working or not
+6. Now access the below URL from your browser to test if your API is working or not
 ```
 http://localhost:3000/test?name=NetrajPatel
 ```
